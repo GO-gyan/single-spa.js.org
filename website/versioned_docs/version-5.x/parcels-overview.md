@@ -87,7 +87,7 @@ Then to use the parcel you just created all you need to do is use the `Parcel` c
 import Parcel from 'single-spa-react/parcel'
 import { MyParcel } from './myparcel.js'
 
-export class myComponent extends React.Component {
+export class MyComponent extends React.Component {
   render () {
     return (
       <Parcel
